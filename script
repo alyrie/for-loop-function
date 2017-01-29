@@ -1,0 +1,9 @@
+var myMakeup = ["foundation", "concealer", "powder", "eyeshadow", "lipstick", "mascara", "eyeliner", "lipliner", "primer", "moisturizer", "under eye cream", "eye primer", "fake lashes", "bronzer"];
+
+var shop = function () {
+  for(i=0; i<=myMakeup.length; i++){
+    console.log("I'm headed to Nordstroms! Gotta remember to get " + myMakeup[i]);
+  };
+};
+
+shop();
